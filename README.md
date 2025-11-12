@@ -14,7 +14,7 @@ Editar informações de uma receita existente.
 
 Apagar uma receita.
 
-Marcar/Desmarcar receitas como "Favoritas".
+Marcar/Desmarcar receitas como favoritas.
 
 Listar apenas as receitas favoritas.
 
