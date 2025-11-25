@@ -1,1 +1,2 @@
-Salgada;Arroz;false;Arroz Água Sal
+Salgada;Arroz;false;Arroz, água, sal
+Salgada;Feijão;false;Feijão, água, tempero

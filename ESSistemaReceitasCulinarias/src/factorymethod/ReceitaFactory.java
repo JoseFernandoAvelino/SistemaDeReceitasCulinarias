@@ -1,6 +1,10 @@
-package projeto;
+package factorymethod;
 
 import java.util.List;
+import projeto.Receita;
+import strategy.ReceitaDoceStrategy;
+import strategy.ReceitaSalgadaStrategy;
+import strategy.TipoReceitaStrategy;
 
 public class ReceitaFactory {
     public Receita criarReceita(String tipo, String nome, List<String> ingredientes, String modoDePreparo) {  

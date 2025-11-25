@@ -2,6 +2,8 @@ package projeto;
 
 import java.util.List;
 
+import strategy.TipoReceitaStrategy;
+
 public class Receita {
     private String nome;
     private List<String> ingredientes;
@@ -51,6 +53,13 @@ public class Receita {
 
     public void setModoDePreparo(String modoDePreparo) {
         this.modoDePreparo = modoDePreparo;
+    }
+    
+    public String paraFormatoArquivo() {
+        return getCategoriaDaReceita() + ";" +
+               getNome() + ";" +
+               ehFavorita() + ";" +
+               String.join(",", ingredientes); 
     }
     
     @Override

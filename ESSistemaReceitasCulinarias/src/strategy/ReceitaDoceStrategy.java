@@ -1,4 +1,4 @@
-package projeto;
+package strategy;
 
 public class ReceitaDoceStrategy implements TipoReceitaStrategy {
     @Override
