@@ -90,7 +90,7 @@ public class SistemaDeReceitas {
             System.out.print("Nome da receita: ");
             String nome = scanner.nextLine();
 
-            System.out.print("Tipo (Doce / Salgada): ");
+            System.out.print("Tipo (Doce / Salgada / Vegana / Sem Glúten): ");
             String tipo = scanner.nextLine();
 
             System.out.print("Ingredientes (separados por vírgula): ");

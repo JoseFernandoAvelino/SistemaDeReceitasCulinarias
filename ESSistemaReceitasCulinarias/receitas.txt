@@ -1,2 +1,1 @@
-Salgada;Arroz;false;Arroz, água, sal
-Salgada;Feijão;false;Feijão, água, tempero
+Sem Glúten;Pão de queijo;false;Polvilho, queijo, ovos, óleo;Misture polvilho, queijo, ovos e óleo até formar uma massa homogênea, faça bolinhas e asse no forno até dourarem.

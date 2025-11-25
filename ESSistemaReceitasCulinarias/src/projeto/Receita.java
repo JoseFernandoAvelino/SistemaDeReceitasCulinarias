@@ -59,7 +59,7 @@ public class Receita {
         return getCategoriaDaReceita() + ";" +
                getNome() + ";" +
                ehFavorita() + ";" +
-               String.join(",", ingredientes); 
+               String.join(",", ingredientes) + ";" + modoDePreparo;
     }
     
     @Override

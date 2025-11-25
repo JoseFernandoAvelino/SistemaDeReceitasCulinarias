@@ -69,7 +69,8 @@ public class ReceitaRepository {
                 String nome = partes[1];
                 boolean favorita = Boolean.parseBoolean(partes[2]);
                 List<String> ingredientes = List.of(partes[3].split(","));
-                Receita r = factory.criarReceita(tipo, nome, ingredientes, "Modo de preparo padrão");
+                String modoPreparo = (partes.length > 4) ? partes[4] : "Modo de preparo não informado";
+                Receita r = factory.criarReceita(tipo, nome, ingredientes, modoPreparo);
                 if (favorita) r.favoritar(); 
                 this.receitasEmMemoria.add(r);
             } catch (Exception e) {
