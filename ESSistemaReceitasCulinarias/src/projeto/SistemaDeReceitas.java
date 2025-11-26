@@ -3,7 +3,6 @@ package projeto;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-
 import factorymethod.ReceitaFactory;
 
 public class SistemaDeReceitas {
