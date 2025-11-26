@@ -1,1 +1,3 @@
 Sem Glúten;Pão de queijo;false;Polvilho, queijo, ovos, óleo;Misture polvilho, queijo, ovos e óleo até formar uma massa homogênea, faça bolinhas e asse no forno até dourarem.
+Salgada;Arroz;false;Arroz, água, sal;Refogue o arroz com sal, adicione o dobro de água e cozinhe em fogo baixo com a panela entreaberta até secar.
+Salgada;Feijão;false;Feijão, água, tempero;Cozinhe o feijão na pressão com água por 25 minutos, depois refogue o tempero à parte, misture tudo e deixe ferver até o caldo engrossar.
