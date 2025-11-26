@@ -1,7 +1,6 @@
 package projeto;
 
 import java.util.List;
-
 import strategy.TipoReceitaStrategy;
 
 public class Receita {
